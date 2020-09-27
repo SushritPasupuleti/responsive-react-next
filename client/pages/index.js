@@ -5,22 +5,41 @@ import Box from '@material-ui/core/Box';
 import Link from 'next/link';
 import Navbar from '../components/navbar';
 import CardStack from '../containers/cardstack';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+      flexGrow: 1,
+  },
+  paper: {
+      padding: theme.spacing(2),
+      textAlign: 'center',
+      color: theme.palette.text.secondary,
+  },
+}));
 
 export default function Index() {
+  const classes = useStyles();
+
   return (
     <>
-    <Navbar></Navbar>
-    <Container maxWidth="sm">
-      <Box my={4}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          Next.js example
+      <Navbar></Navbar>
+      <Container maxWidth="sm">
+        <Box my={4}>
+          <Typography variant="h4" component="h1" gutterBottom>
+            Next.js example
         </Typography>
-        <CardStack></CardStack>
-        <Link href="/about" color="secondary">
-          Go to the about page
+          <CardStack></CardStack>
+          <Link href="/about" color="secondary">
+            Go to the about page
         </Link>
-      </Box>
-    </Container>
+        </Box>
+      </Container>
+      <Container maxWidth="xl" className={classes.root}>
+        <Box my={4}>
+          <CardStack></CardStack>
+        </Box>
+      </Container>
     </>
   );
 }
