@@ -5,16 +5,16 @@ import Box from '@material-ui/core/Box';
 import Link from 'next/link';
 import CardStack from '../containers/cardstack';
 import { makeStyles } from '@material-ui/core/styles';
-import Navbar from '../components/Navbar/Navbar';
+import { Navbar } from '../components';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-      flexGrow: 1,
+    flexGrow: 1,
   },
   paper: {
-      padding: theme.spacing(2),
-      textAlign: 'center',
-      color: theme.palette.text.secondary,
+    padding: theme.spacing(2),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
   },
 }));
 

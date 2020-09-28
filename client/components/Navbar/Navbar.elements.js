@@ -8,6 +8,7 @@ align-self: center;
 position: sticky;
 top: 0;
 z-index: 999;
+font-size: 1.2rem;
 
 &:hover {
     color: red;
