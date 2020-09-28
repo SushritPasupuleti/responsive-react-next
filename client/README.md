@@ -28,3 +28,28 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Setting Up Material UI and styled-components
+
+Install depenedencies
+
+```bash
+npm i @material-ui/core @material-ui/icons styled-components babel-plugin-styled-components
+```
+
+Add `.babelrc` file
+
+```
+touch .babelrc
+```
+
+Add the following to `.babelrc`
+
+```json
+{
+  "plugins": [
+    ["styled-components", { "ssr": true, "displayName": true, "preprocess": false } ],
+  ],
+  "presets": ["next/babel"]
+}
+```
