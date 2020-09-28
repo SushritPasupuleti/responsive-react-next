@@ -71,6 +71,32 @@ export default function FullWidthGrid() {
                     <PicCard title="auto boi"></PicCard>
                 </Grid>
             </Grid>
+            <Grid container spacing={3}>
+            <Grid item xs={"auto"} sm={"auto"}>
+                    <PicCard title="very auto boi"></PicCard>
+                </Grid>
+                <Grid item xs={"auto"} sm={"auto"}>
+                    <PicCard title="very auto boi"></PicCard>
+                </Grid>
+                <Grid item xs={"auto"} sm={"auto"}>
+                    <PicCard title="very auto boi"></PicCard>
+                </Grid>
+                <Grid item xs={"auto"} sm={"auto"}>
+                    <PicCard title="very auto boi"></PicCard>
+                </Grid>
+                <Grid item xs={"auto"} sm={"auto"}>
+                    <PicCard title="very auto boi"></PicCard>
+                </Grid>
+                <Grid item xs={"auto"} sm={"auto"}>
+                    <PicCard title="very auto boi"></PicCard>
+                </Grid>
+                <Grid item xs={"auto"} sm={"auto"}>
+                    <PicCard title="very auto boi"></PicCard>
+                </Grid>
+                <Grid item xs={"auto"} sm={"auto"}>
+                    <PicCard title="very auto boi"></PicCard>
+                </Grid>
+            </Grid>
         </div>
     );
 }
