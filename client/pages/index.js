@@ -5,6 +5,7 @@ import Box from '@material-ui/core/Box';
 import Link from 'next/link';
 import CardStack from '../containers/cardstack';
 import { makeStyles } from '@material-ui/core/styles';
+import Navbar from '../components/Navbar/Navbar';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -24,6 +25,7 @@ export default function Index() {
     <>
       <Container maxWidth="sm">
         <Box my={4}>
+          <Navbar></Navbar>
           <Typography variant="h4" component="h1" gutterBottom>
             Next.js example
         </Typography>

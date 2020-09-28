@@ -1,11 +1,12 @@
 import React from 'react'
+import { Nav } from './Navbar.elements';
 
 const Navbar = () => {
     return (
         <>
-          <Navbar>
-          le title
-          </Navbar>  
+            <Nav>
+                le title
+          </Nav>
         </>
     )
 }
