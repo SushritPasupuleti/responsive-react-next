@@ -7,41 +7,16 @@ export const ParentButton = styled.button`
   --blue-color: #00f0ff;
 
   margin: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 230px;
+  height: 60px; 
   border: 0;
   outline: none;
-  background-color: var(--yellow-color);
-  color: var(--black-color);
+  background-color: var(--black-color);
   cursor: pointer;
-  padding: 20px 25px;
   position: relative;
   font-family: Tomorrow, sans-serif;
   font-size: .85rem;
   text-transform: uppercase;
-
-  &::before {
-  content: "";
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  bottom: -14px;
-  left: -13px;
-  background-color: var(--yellow-color);
-  border-top: 2px solid var(--black-color);
-  transform: rotate(45deg);
-}
-
-&::after {
-  content: "";
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  top: -14px;
-  right: -13px;
-  background-color: var(--yellow-color);
-  border-bottom: 2px solid var(--black-color);
-  transform: rotate(45deg);
-}
+  color: var(--black-color);
+  clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
 `
