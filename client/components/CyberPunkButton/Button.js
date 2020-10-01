@@ -1,10 +1,10 @@
 import React from 'react'
-import { ParentButton } from './Button.elements'
+import { ParentButton, ButtonContent } from './Button.elements'
 
 function Button() {
     return (
         <ParentButton>
-            2077 Text_
+            <ButtonContent>2077 Text_</ButtonContent>
         </ParentButton>
     )
 }
