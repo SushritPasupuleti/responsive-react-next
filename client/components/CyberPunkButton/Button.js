@@ -1,10 +1,11 @@
 import React from 'react'
+import {ParentButon} from './Button.elements'
 
 function Button() {
     return (
-        <div>
+        <ParentButton>
             
-        </div>
+        </ParentButton>
     )
 }
 
