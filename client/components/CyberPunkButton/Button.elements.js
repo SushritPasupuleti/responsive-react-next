@@ -44,3 +44,14 @@ export const ButtonLabel = styled.span`
   background-color: var(--yellow-color);
   z-index: 3;
 `
+
+export const GlitchFx = styled.span`
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--yellow-color);
+  filter: drop-shadow(-2px 3px #67e3f3) drop-shadow(-1px -3px #02d8f3) drop-shadow(2px 1px #02d8f3);
+`
