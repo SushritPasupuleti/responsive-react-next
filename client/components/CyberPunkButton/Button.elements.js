@@ -33,3 +33,14 @@ export const ButtonContent = styled.span`
   background-color: var(--yellow-color);
   clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
 `
+
+export const ButtonLabel = styled.span`
+  height: 10px;
+  font-size: .40rem;
+  position: absolute;
+  bottom: -4px;
+  right: 8%;
+  padding: 0 5px;
+  background-color: var(--yellow-color);
+  z-index: 3;
+`
