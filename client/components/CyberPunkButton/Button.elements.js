@@ -8,7 +8,6 @@ export const ParentButton = styled.button`
   --blue-color: #00f0ff;
 }
 
-.btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,5 +21,4 @@ export const ParentButton = styled.button`
   font-family: Tomorrow, sans-serif;
   font-size: .85rem;
   text-transform: uppercase;
-}
 `
