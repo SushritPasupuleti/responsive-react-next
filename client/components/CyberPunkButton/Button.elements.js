@@ -1,13 +1,12 @@
 import styled from 'styled-components';
 
 export const ParentButton = styled.button`
-:root {
   --yellow-color: #fcee09; 
   --red-color: #ff003c;
   --black-color: #050a0e;
   --blue-color: #00f0ff;
-}
 
+  margin: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
