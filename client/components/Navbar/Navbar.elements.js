@@ -35,3 +35,9 @@ export const NavLink = styled.a`
         visibility: hidden;
     }
 `
+
+export const MobileNavMenu = styled.button`
+    color: white;
+    margin-right: 1rem;
+
+`
