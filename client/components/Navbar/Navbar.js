@@ -1,12 +1,20 @@
 import React from 'react'
-import { Nav } from './Navbar.elements';
+import { Nav, NavContainer, NavLink } from './Navbar.elements';
 
 const Navbar = () => {
     return (
         <>
             <Nav>
                 le title
-          </Nav>
+                <NavContainer>
+                    <NavLink>
+                        Home
+                    </NavLink>
+                    <NavLink>
+                        About
+                    </NavLink>
+                </NavContainer>
+            </Nav>
         </>
     )
 }
