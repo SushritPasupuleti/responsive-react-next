@@ -13,6 +13,11 @@ padding: 1rem;
 
 &:hover {
     color: red;
+    align-items: center;
+}
+
+@media (max-width: 768px){
+    color: white;
 }
 `
 
