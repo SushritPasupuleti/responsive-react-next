@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav, NavContainer, NavLink } from './Navbar.elements';
+import { Nav, NavContainer, NavLink, MobileNavMenu } from './Navbar.elements';
 
 const Navbar = () => {
     return (
@@ -14,6 +14,7 @@ const Navbar = () => {
                         About
                     </NavLink>
                 </NavContainer>
+                <MobileNavMenu>O</MobileNavMenu>
             </Nav>
         </>
     )
