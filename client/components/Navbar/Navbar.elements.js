@@ -28,6 +28,10 @@ export const NavContainer = styled.div`
 `
 
 export const NavLink = styled.a`
-    color: wheat;
+    color: white;
     margin-left: 1rem;
+
+    @media (max-width: 768px){
+        visibility: hidden;
+    }
 `
