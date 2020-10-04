@@ -36,8 +36,12 @@ export const NavLink = styled.a`
     }
 `
 
-export const MobileNavMenu = styled.button`
+export const MobileNavMenu = styled.a`
     color: white;
     margin-right: 1rem;
+    visibility: hidden;
 
+    @media (max-width: 768px){
+        visibility: visible;
+    }
 `
