@@ -11,7 +11,7 @@ export const ButtonContent = styled.span`
   left: 2px;
   right: 2px;
   bottom: 2px;
-  background-color: var(--yellow-color);
+  background-color: ${props => props.primary ? "#fcee09" : "#ff003c"};
   clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
 `
 
@@ -22,7 +22,7 @@ export const ButtonLabel = styled.span`
   bottom: -4px;
   right: 8%;
   padding: 0 5px;
-  background-color: var(--yellow-color);
+  background-color: ${props => props.primary ? "#fcee09" : "#ff003c"};
   z-index: 3;
 `
 
@@ -33,7 +33,7 @@ export const GlitchFx = styled.span`
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--yellow-color);
+  background-color: ${props => props.primary ? "#fcee09" : "#ff003c"};
   filter: drop-shadow(-2px 3px #67e3f3) drop-shadow(-1px -3px #02d8f3) drop-shadow(2px 1px #02d8f3);
 `
 

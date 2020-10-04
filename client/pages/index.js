@@ -29,6 +29,7 @@ export default function Index() {
           <Typography variant="h4" component="h1" gutterBottom>
             Next.js example
         </Typography>
+        <CyberPunkButton primary></CyberPunkButton>
         <CyberPunkButton></CyberPunkButton>
           <CardStack></CardStack>
           <Link href="/about" color="secondary">
