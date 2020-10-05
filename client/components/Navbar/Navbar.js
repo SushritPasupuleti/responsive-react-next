@@ -13,8 +13,8 @@ const Navbar = () => {
                     <NavLink>
                         About
                     </NavLink>
-                </NavContainer>
                 <MobileNavMenu>O</MobileNavMenu>
+                </NavContainer>
             </Nav>
         </>
     )
