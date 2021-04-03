@@ -11,7 +11,7 @@ export const Nav = styled.nav`
     font-size: 1.2rem;
     padding: 1rem;
     justify-content: space-between;
-     
+    margin-bottom: 1rem; 
     &:hover {
         color: red;
     }
