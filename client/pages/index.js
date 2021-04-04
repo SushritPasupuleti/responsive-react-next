@@ -27,23 +27,23 @@ export default function Index() {
         <Box my={4}>
           <Navbar></Navbar>
           <Typography variant="h4" component="h1" gutterBottom>
-            Next.js example
+            {/* Next.js example */}
         </Typography>
-          <Box my={4}>
+          {/* <Box my={4}>
             <CyberPunkButton primary></CyberPunkButton>
             <CyberPunkButton></CyberPunkButton>
           </Box>
           <CardStack></CardStack>
           <Link href="/about" color="secondary">
             Go to the about page
-        </Link>
+        </Link> */}
         </Box>
       </Container>
-      <Container maxWidth="xl" className={classes.root}>
+      {/* <Container maxWidth="xl" className={classes.root}>
         <Box my={4}>
           <CardStack></CardStack>
         </Box>
-      </Container>
+      </Container> */}
     </>
   );
 }
